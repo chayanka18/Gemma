@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aboutuspg"
+    tools:context=".AboutUs">
+
+    <ScrollView
+        android:layout_width="404dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="4dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="3dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="387dp"
+                android:layout_height="129dp"
+                android:background="#00000000"
+                android:fontFamily="@font/aldrich"
+                android:padding="5dp"
+                android:layout_marginRight="5dp"
+                android:text="The mission of Gemma is to advance the integrity of the modern diamond jewellery industry and inspire,educate and protect the customer"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#A9A223BF"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView4"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="261dp"
+                android:layout_height="67dp"
+                android:layout_marginTop="280dp"
+                android:background="#00000000"
+                android:fontFamily="@font/aldrich"
+                android:padding="5dp"
+                 android:gravity="center"
+                android:text="Our Mission"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#A9A10C77"
+                android:textSize="34sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.503"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="394dp"
+                android:layout_height="142dp"
+                android:layout_marginRight="10dp"
+                android:text="We are team of passionate individuals who have designed this app with the goal of providing an easy and convenient way for customers to shop for beautiful jewellery pieces without having to leave the comfort of their house"
+                android:textAlignment="center"
+                android:textColor="#F387A6"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="394dp"
+                android:layout_height="124dp"
+                android:layout_marginTop="36dp"
+                android:layout_marginRight="5dp"
+                android:text="We understand that jewellery is not only a fashion accessory but alsp has deep cultural and emotional significance.Browse our collection and discover the perfect piece that speaks to you."
+                android:textAlignment="center"
+                android:textColor="#F387A6"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="@+id/textView6"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/textView6"
+                app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="394dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="40dp"
+                android:text="Our team is dedicated to providing exceptional customer service and ensuring that our customers have a smooth and enjoyable shopping experience."
+                android:textAlignment="center"
+                android:textColor="#F387A6"
+                android:textSize="20sp"
+                app:layout_constraintTop_toBottomOf="@+id/textView7"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="114dp"
+                android:layout_height="238dp"
+                android:scaleType="fitXY"
+                app:layout_constraintBottom_toTopOf="@+id/textView4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.714"
+                app:srcCompat="@drawable/girl" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="139dp"
+                android:layout_height="153dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="148dp"
+                android:scaleType="fitXY"
+                app:layout_constraintBottom_toTopOf="@+id/textView4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.475"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.439"
+                app:srcCompat="@drawable/ear" />
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="263dp"
+                android:layout_height="103dp"
+                android:scaleType="fitXY"
+                android:layout_marginRight="5dp"
+                app:layout_constraintBottom_toTopOf="@+id/textView4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.886"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.932"
+                app:srcCompat="@drawable/chain" />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="122dp"
+                android:layout_height="139dp"
+                android:scaleType="fitXY"
+                app:layout_constraintBottom_toTopOf="@+id/textView4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.943"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.113"
+                android:layout_marginRight="5dp"
+                app:srcCompat="@drawable/ring" />
+
+            <TextView
+                android:id="@+id/contactat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="Contact Us"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView8"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <ImageView
+                android:id="@+id/contact"
+                android:layout_width="356dp"
+                android:layout_height="397dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:scaleType="fitXY"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.125"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/contactat"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/contactat" />
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:onClick="Email"
+                android:text="gemmajewelleries2@gmail.com"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.568"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/contactat"
+                app:layout_constraintVertical_bias="0.545" />
+
+            <TextView
+                android:id="@+id/phoenum"
+                android:layout_width="258dp"
+                android:layout_height="38dp"
+                android:text="0820 2521807"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:onClick="Call"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.568"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/contactat"
+                app:layout_constraintVertical_bias="0.233"/>
+
+            <TextView
+                android:id="@+id/message"
+                android:layout_width="258dp"
+                android:layout_height="38dp"
+                android:text="8073868543"
+                android:textColor="@color/black"
+                android:textIsSelectable="true"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.568"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/contactat"
+                app:layout_constraintVertical_bias="0.863" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

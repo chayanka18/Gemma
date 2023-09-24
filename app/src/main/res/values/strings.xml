@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Gem</string>
+    <string name="open">Open Navigation Drawer</string>
+    <string name="close">Close Navigation Drawer</string>
+    <string name="title_activity_login">Login</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+
+    <string name="heading_one">There is no limit to</string>
+    <string name="heading_two">Prepare to have a lot</string>
+    <string name="heading_three">Fine Jewellery you can</string>
+    <string name="heading_fourth">Jewellery is the most transformative</string>
+
+    //Description
+    <string name="desc_one">layering</string>
+    <string name="desc_two">on your wishlist</string>
+    <string name="desc_three">actually afford</string>
+    <string name="desc_fourth">thing you can wear</string>
+</resources>

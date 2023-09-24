@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "103042249837",
+    "firebase_url": "https://gemma-9d50d-default-rtdb.firebaseio.com",
+    "project_id": "gemma-9d50d",
+    "storage_bucket": "gemma-9d50d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:103042249837:android:6ff8e414cb54a88b453b64",
+        "android_client_info": {
+          "package_name": "com.example.gem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "103042249837-sk27to0h24od136i4ftm7tvilv3vm71p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBUcpZx2wEEz7Zx2CYiQKbcFYbXRj6i_4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "103042249837-sk27to0h24od136i4ftm7tvilv3vm71p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

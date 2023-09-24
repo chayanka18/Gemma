@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aldrich</item>
+        <item>@font/alex_brush</item>
+        <item>@font/allerta</item>
+        <item>@font/allura</item>
+        <item>@font/almendra_display</item>
+        <item>@font/archivo_black</item>
+        <item>@font/bebas_neue</item>
+        <item>@font/bevan</item>
+        <item>@font/calligraffitti</item>
+        <item>@font/cedarville_cursive</item>
+        <item>@font/homemade_apple</item>
+        <item>@font/poppins_bold</item>
+        <item>@font/spirax</item>
+    </array>
+</resources>

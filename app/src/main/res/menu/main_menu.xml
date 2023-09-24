@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/home"
+                    android:title="Home"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:icon="@drawable/baseline_home_24"/>
+                <item
+                    android:title="search"
+                    android:icon="@drawable/baseline_search_24"
+                    android:id="@+id/search"
+                    android:focusable="true"
+                    android:clickable="true"
+
+                    />
+                <item
+                    android:title="Recent Orders"
+                    android:icon="@drawable/baseline_shopping_bag_24"
+                    android:id="@+id/shopping"
+                    android:focusable="true"
+                    android:clickable="true"
+
+                    />
+
+                <item android:id="@+id/logout"
+                    android:title="Log Out"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:icon="@drawable/baseline_logout_24"/>
+                <item android:id="@+id/about"
+                    android:title="Learn and Reach"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:icon="@drawable/baseline_account_circle_24"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Communication">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/help"
+                    android:title="FAQ"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:icon="@drawable/baseline_question_mark_24"/>
+
+                <item android:id="@+id/rateus"
+                    android:title="Rate Us"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:icon="@drawable/baseline_sentiment_satisfied_alt_24"/>
+            </group>
+        </menu>
+    </item>
+</menu>
